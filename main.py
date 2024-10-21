@@ -4,8 +4,3 @@ with open("text.txt", "r",encoding= "utf-8") as read_file, open("output.txt", "w
        num+=1 #каждый раз num увеличивается на 1
        write_file.write(str(num) + '.')# записываем num с точкой после неё в другой файл 
        write_file.write(line) #запись line в другой файл 
-       
-       
-       
-       
-       
